@@ -1,0 +1,63 @@
+.header-color{
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landing-grid{
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+.drawer-color{
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.avatar-img{
+  height: 250px;
+  padding-top: 5em;
+}
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+.banner-text hr{
+ border-top: 5px dotted white;
+ width: 50%;
+ margin :auto;
+}
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding:1em;
+  text-align: center;
+}
+.social-links{
+  color:white;
+  display: flex;
+  width: 50%;
+  margin:auto;
+}
+
+.social-links i{
+  color:white;
+  font-size: 5em;;
+  padding:8px;
+}
+
+.projects-grid{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
