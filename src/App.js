@@ -21,7 +21,7 @@ function App() {
                             <a href="/resume">Resume</a>
                         </Navigation>
                     </Header>
-                    <Drawer className="drawer-color" style={{ backgroundColor:"black",opacity:".8"}}>
+                    <Drawer className="drawer-color" style={{ backgroundColor:"white",opacity:".8"}}>
                         <Navigation>
                         <a href="/aboutme">About Me</a>
                         <a href="/projects">Projects</a>
