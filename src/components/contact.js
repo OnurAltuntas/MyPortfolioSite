@@ -23,14 +23,14 @@ export default class contact extends Component {
                                 <ListItem>
                                     <ListItemContent className="list-itemcontent" >
                                         <i style={{ fontSize: "50px", paddingRight: "5rem" }} className="fa fa-phone-square" aria-hidden="true" />
-                                (507)5985053
+                                        (507)505 56 36
                                 </ListItemContent>
 
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent className="list-itemcontent" >
                                         <i style={{ fontSize: "50px", paddingRight: "5rem" }} className="fa fa-fax" aria-hidden="true" />
-                        (507)5985053
+                        (507)505 56 36
                         </ListItemContent>
                                 </ListItem>
                                 <ListItem>

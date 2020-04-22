@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Navigation, Drawer, Content, Layout } from 'react-mdl';
+import { Header, Navigation, Drawer, Content, Layout,Footer,FooterDropDownSection,FooterLinkList,FooterSection } from 'react-mdl';
 import Main from './components/main'
 import './App.css';
 import {Link} from 'react-router-dom';
