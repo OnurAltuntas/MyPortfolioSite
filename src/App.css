@@ -8,6 +8,16 @@
   background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  
+}
+.landing-main{
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100%;
+  margin:auto;
+
 }
 .drawer-color{
   background: #F7971E;  /* fallback for old browsers */
@@ -17,13 +27,16 @@
 .avatar-img{
   height: 250px;
   padding-top: 5em;
+ 
 }
 .banner-text{
   background-color: black;
   opacity: .8;
   width: 75%;
+  height: auto;
   margin:auto;
   border-radius: 10px;
+  text-align: center;
 }
 
 .banner-text h1{
@@ -45,19 +58,61 @@
 }
 .social-links{
   color:white;
-  display: flex;
   width: 50%;
-  margin:auto;
+  display: inline-flex;
+  text-align: center;
 }
 
-.social-links i{
+.banner-text i{
   color:white;
   font-size: 5em;;
-  padding:8px;
+  margin-right: 5rem;
+  padding:16px;
+  
 }
 
 .projects-grid{
   display: flex;
-  margin: 0 auto;
   text-align: center;
+}
+
+.contact-body{
+  position: inherit;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2em;
+}
+.contact-grid{
+
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height:100%;
+  background-color:white;
+  color:black;
+  margin-top: 100px;
+}
+.contact-grid h2{
+  font-family:'Anton',sans-serif;
+}
+.contact-grid p{
+  font-family: 'Oxygen',sans-serif;
+  font-weight: bold;
+}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list{
+  font-size: 25px;
+  padding-right: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+.list-itemcontent{
+  font-size: 25px;
+  font-family: 'Anton',sans-serif;
 }

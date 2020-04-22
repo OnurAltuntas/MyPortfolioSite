@@ -10,7 +10,7 @@ function App() {
 
     return (
         <div className="App">
-            <div className="projects-grid">
+            <div>
                 <Layout style={{ backgroundColor: "white" }}>
                     <Header className="header-color" title="OnurAltuntasDev">
                         <Navigation >

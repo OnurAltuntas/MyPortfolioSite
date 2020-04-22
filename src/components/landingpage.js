@@ -5,7 +5,7 @@ import '../App.css';
 class landingpage extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
+            <div className="landing-main">
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img className="avatar-img"
@@ -17,11 +17,20 @@ class landingpage extends Component {
                             <h1>Complicated Web and Mobile Developer</h1>
                             <hr></hr>
                             <p>HTML/CSS | JavaScript | React | NodeJS | C# | Asp.net | Firebase </p>
-                            <div className="social-links">
+                            
                                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fab fa-linkedin-in-square" area-hidden="true"></i>
+                                    <i className="fa fa-linkedin-square" area-hidden="true"></i>
                                 </a>
-                            </div>
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" area-hidden="true"></i>
+                                </a>
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-twitter-square" area-hidden="true"></i>
+                                </a>
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-youtube-square" area-hidden="true"></i>
+                                </a>
+                            
                         </div>
                     </Cell>
                 </Grid>
