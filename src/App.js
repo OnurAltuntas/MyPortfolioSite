@@ -14,7 +14,6 @@ function App() {
                 <Layout style={{ backgroundColor: "white" }}>
                     <Header className="header-color" title="OnurAltuntasDev">
                         <Navigation >
-                            <a href="/">Home</a>
                             <a href="/aboutme">About Me</a>
                             <a href="/projects">Projects</a>
                             <a href="/contact">Contact</a>
